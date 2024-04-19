@@ -1,0 +1,22 @@
+# requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+ultralytics==8.0.195
+
+# YOLO with GPU -------------------------------
+# replace torch and torchvision with needed versions:
+# see more in torch website: https://pytorch.org/get-started/locally/
+
+# torch~=2.1.0.dev20230624+cu121
+# torchvision~=0.16.0.dev20230625+cu121
+
+# Server with gradio --------------------------
+gradio==3.47.1
+
+# Server with FastAPI -------------------------
+fastapi==0.103.2
+uvicorn>=0.15.0
+
+# Mysql ---------------------------------------
+mysql-connector-python==8.1.0
